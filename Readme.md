@@ -34,7 +34,7 @@ root/data/processed<br>
     <li>Used the images + pose to estimate what kind of activity the humans are doing(there are 20 classes of possible activities)
 </ul>
 
-<h3>Activities/Class</h3>
+<h3>Activities/Class_Names</h3>
 class_names = {<br>
 &nbsp;'sports': 0,<br>
 &nbsp;'miscellaneous': 1,<br>
