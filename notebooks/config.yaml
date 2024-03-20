@@ -1,0 +1,15 @@
+# Data
+path: /Users/adsingh/Desktop/Project2_Analysis_V_1.6/data/processed
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+
+# Parameters
+# batch: 32
+
+# Keypoints
+kpt_shape: [16, 3]  # [number of keypoints, number of dim]
+flip_idx: [5, 4, 3, 2, 1, 0, 6, 7, 8, 9, 15, 14, 13, 12, 11, 10]
+
+# Classes
+names:
+  0: human
