@@ -14,7 +14,8 @@ pip install /path/to/dist/myproject-1.0.tar.gz
 ## Purpose
 ```
 Uses the input image to estimate the pose of the human body.
-Combines the images with the pose to estimate the kind of activity the humans in the image are doing.
+Combines the images with the pose to estimate the kind of activity the humans in the image
+are doing.
 ```
 
 ## How to structure the downloaded data
