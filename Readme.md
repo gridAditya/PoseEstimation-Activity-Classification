@@ -1,6 +1,6 @@
 # Pose Estimation and Activity Classification
 
-The models developed in this project aim to estimate the pose(keypoint co-ordinates) as well as classify the kind of activity the humans in the give image are doing.
+The models developed in this project aim to estimate the pose(keypoint co-ordinates) as well as classify the kind of activity the humans in the given image are doing.
 
 ## Installation
 
