@@ -3,7 +3,7 @@
 <h2>How to structure the downloaded data</h2>
 <p>After downloading the MPII Human Pose Dataset, it will have two folders 'mpii_human_pose_v1_u12_2' and 'images'.<br>
 Rename the 'images' folder to 'original_images' and then place both the folders inside '/data/raw'.<br>
-<br>&nbsp;
+<br>
 Also inside the '/data/processed' directory the structure should be like:<br>
 <b>Structure of the processed data directory:</b><br>
 root/data/processed<br>
