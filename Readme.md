@@ -8,8 +8,8 @@ Also inside the '/data/processed' directory the structure should be like:<br>
 <b>Structure of the processed data directory:</b><br>
 root/data/processed<br>
 |____ images<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|_______train<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|_______val<br>
+|&emsp;&emsp;&emsp;|_______train<br>
+|&emsp;&emsp;&emsp;|_______val<br>
 |____ labels<br>
 |                    |_______train<br>
 |                    |_______val<br>
