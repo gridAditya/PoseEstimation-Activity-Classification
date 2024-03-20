@@ -11,14 +11,14 @@ root/data/processed<br>
 |&emsp;&emsp;&emsp;|_______train<br>
 |&emsp;&emsp;&emsp;|_______val<br>
 |____ labels<br>
-|                    |_______train<br>
-|                    |_______val<br>
+|&emsp;&emsp;&emsp;|_______train<br>
+|&emsp;&emsp;&emsp;|_______val<br>
 |____ images_pose<br>
-|                     |_______train<br>
-|                     |_______val<br>
+|&emsp;&emsp;&emsp;|_______train<br>
+|&emsp;&emsp;&emsp;|_______val<br>
 |____ labels_pose<br>
-|                     |_______train<br>
-|                     |_______val<br>
+|&emsp;&emsp;&emsp;|_______train<br>
+|&emsp;&emsp;&emsp;|_______val<br>
 |____ train_4_channel_info<br>
 |<br>
 |____ train_labels_pose_class<br>
