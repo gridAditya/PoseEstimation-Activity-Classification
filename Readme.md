@@ -7,25 +7,25 @@ Rename the 'images' folder to 'original_images' and then place both the folders 
 Also inside the '/data/processed' directory the structure should be like:<br>
 <b>Structure of the processed data directory:</b><br>
 root/data/processed<br>
-|________________ images
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|_______train
-|                    |_______val
-|________________ labels
-|                    |_______train
-|                    |_______val
-|________________ images_pose
-|                     |_______train
-|                     |_______val
-|________________ labels_pose
-|                     |_______train
-|                     |_______val
-|________________ train_4_channel_info
-|
-|________________ train_labels_pose_class
-|
-|________________ val_4_channel_info
-|
-|________________ val_labels_pose_class
+|________________ images<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|_______train<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|_______val<br>
+|________________ labels<br>
+|                    |_______train<br>
+|                    |_______val<br>
+|________________ images_pose<br>
+|                     |_______train<br>
+|                     |_______val<br>
+|________________ labels_pose<br>
+|                     |_______train<br>
+|                     |_______val<br>
+|________________ train_4_channel_info<br>
+|<br>
+|________________ train_labels_pose_class<br>
+|<br>
+|________________ val_4_channel_info<br>
+|<br>
+|________________ val_labels_pose_class<br>
 </p>
 
 <h2>What we have done</h2>
