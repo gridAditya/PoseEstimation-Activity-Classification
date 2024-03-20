@@ -48,7 +48,7 @@ root/data/processed
 ## How to use the project
 ```
 You can use the 'model_inference_final.ipynb' jupyter notebook to make inferences on the any image, just change
-the value in the 'image_path' variable, or you can use the pretrained models
+the value in the 'image_path' variable, or you can use the trained models
 (last.pt and pose_classification_13:14:15_18831.keras) available in the root/models directory.
 ```
 
