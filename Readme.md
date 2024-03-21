@@ -19,7 +19,7 @@ are doing.
 
 ## How to structure the downloaded data
 ````
-After downloading the MPII Human Pose Dataset, it will have two folders 'mpii_human_pose_v1_u12_2' and 'images'.
+After downloading the MPII Human Pose Dataset([images](https://datasets.d2.mpi-inf.mpg.de/andriluka14cvpr/mpii_human_pose_v1.tar.gz), [annotations](https://datasets.d2.mpi-inf.mpg.de/andriluka14cvpr/mpii_human_pose_v1_u12_2.zip)), it will have two folders 'mpii_human_pose_v1_u12_2' and 'images'.
 Rename the 'images' folder to 'original_images' and then place both the folders inside '/data/raw'.
 
 Structure of the processed data directory:
