@@ -7,8 +7,7 @@ The models developed in this project aim to estimate the pose(keypoint co-ordina
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install.
 
 ```bash
-pip setup.py sdist
-pip install /path/to/dist/myproject-1.0.tar.gz
+pip install -r requirements.txt
 ```
 
 ## Purpose
