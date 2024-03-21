@@ -44,6 +44,9 @@ root/data/processed
        |
        |________________ val_labels_pose_class
 ````
+Download Links:   
+[Images](https://datasets.d2.mpi-inf.mpg.de/andriluka14cvpr/mpii_human_pose_v1.tar.gz).   
+[Annotations](https://datasets.d2.mpi-inf.mpg.de/andriluka14cvpr/mpii_human_pose_v1_u12_2.zip).
 
 ## How to use the project
 ```
