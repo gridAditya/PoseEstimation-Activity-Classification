@@ -299,6 +299,13 @@ def drawPointsAndNumbers(image, skeleton_data, locations, ids):
 def randPlotImage(valid_annot_data, skeleton_data, root, dir, rscale_x=1.0, rscale_y=1.0, image_height=256, image_width=256):
     """
         Randomly plots an image from the given dataset
+        Args:
+          valid_annot_data: an array containing the annotations of all images in dataset
+          skeleton_data: an array containing information on how to draw the human skeleton by connecting various joints in human body
+          root: the path to the directory where the dataset is stored
+          dir: name of the directory where the images are stored
+          rscale_x: by what factor to scale the x-coordinate of images(if they are normalised or resized)
+          rscale_y: by what factor to scale the y-coordinate images(if they are normalised or resized)
     """
     choice = np.random.randint(low=0, high=len(valid_annot_data) - 1, size=1)[0]
     # choice = 1623
@@ -393,6 +400,16 @@ def calcEuclideanDistance(x1, y1, x2, y2):
     return math.sqrt((x1 - x2)**2 + (y1 - y2)**2)
 
 def draw_skeleton(skeleton_data, keypoints, image_height, image_width):
+    """
+      Draws the human skeleton based on the information present in skeleton_data and keypoints
+      Args:
+        skeleton_data: an array containing information on how to draw the human skeleton by connecting various joints in human body
+        keypoints: a numpy array containing the keypoint co-ordinates of the humans in image
+        image_height: heght resolution of the image.
+        image_width: width resolution of the image.
+      Returns:
+        poseHeatImage: a numpy array(image_height, image_width) that represents the heatmap of the human skeleton
+    """
     poseHeatImage = np.zeros((image_height, image_width))
     
     # Drawing the skeleton
