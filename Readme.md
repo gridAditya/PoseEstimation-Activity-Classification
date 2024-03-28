@@ -29,7 +29,7 @@ of the "/data/processed" directory in your system, otherwise you won't be able t
 After downloading the MPII Human Pose Dataset, it will have two folders 'mpii_human_pose_v1_u12_2' and 'images'.
 Rename the 'images' folder to 'original_images' and then place both the folders inside '/data/raw'.
 
-Structure of the processed data directory:
+Structure of the processed data directory(you need to create folders in the structure given below in the processed data directory, they can be empty):
 root/data/processed
        |________________ images
        |                    |_______train
