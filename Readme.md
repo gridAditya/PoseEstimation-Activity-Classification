@@ -20,7 +20,8 @@ are doing.
 ```
 When using the YOLO.train function and passing a YAML file to the data parameter, there are two major issues.
 First, it is not possible to pass a path that is relative to the working directory, as this causes errors when the paths in the YAML file are read.
-To fix this you must change the "path" parameter in the config.yaml file in "/notebooks/config.yaml" and in "/src/models/config.yaml" to the absolute path
+
+To fix this issue you must change the "path" parameter in the config.yaml file in "/notebooks/config.yaml" and in "/src/models/config.yaml" to the absolute path
 of the "/data/processed" directory in your system, otherwise you won't be able to train the yolov8-nano model.
 ```
 ## How to structure the downloaded data
