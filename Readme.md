@@ -23,7 +23,7 @@ For running **the API in "Project2_V_1.7_Api"**, since we have implemented our o
 For **synthetic data generation** navigate to the directory "synthetic_data_generation" and use the "synthetic_data_generation.ipynb" notebook.
 Inside the **"synthetic_data_generation"** we have a folder **"synthetic_images"** and **"synthetic_annotations"** that contains around **80 synthetically generated images and corresponding annotations**.
 
-Also in the directory **"model_optimisation_4"** we have not uploaded the pruned and quantised models due to size constraints in gitHub, you can run the code in the **"model_optimisation_4"** to regenerate the pruned and quantised models.
+Also in the directory **"model_optimisation_4"** we have not uploaded the pruned and quantised models due to size constraints in gitHub, you can run the code in the **"model_optimisation_3_0.ipynb"** and **"model_optimisation_3_1.ipynb"** to regenerate the pruned and quantised models and examine the results.
 
 ## Purpose
 ```
