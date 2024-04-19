@@ -16,8 +16,9 @@ For running **the API in "Project2_V_1.7_Api"**, since we have implemented our o
 
 2: Then run the "install_mongodb.sh" bash script to install mongodb database.
 3: After this run the "start_mongodb.sh" bash script to run the mongodb service.
-4: After examining the api you can close the mongodb service using "stop_mongodb.sh" bash script.
-5. Now after navigating to "Project2_V_1.7_Api" directory run the command "uvicorn index:app --reload"
+4. Now after navigating to "Project2_V_1.7_Api" directory run the command "uvicorn index:app --reload"
+5: After examining the api you can close the mongodb service using "stop_mongodb.sh" bash script.
+
 ```
 
 Inside the **"synthetic_data_generation"** we have a folder **"synthetic_images"** and **"synthetic_annotations"** that contains around **80 synthetically generated images and corresponding annotations**.
