@@ -12,7 +12,7 @@ pip install -r requirements.txt
 For running the API in "Project2_V_1.7_Api", since we have implemented our own custom frontend and database with MongoDb, we have to install the MongoDb and run it, so follow the below steps:
 ```bash
 1: First install homeBrew:
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 2: hen run the "install_mongodb.sh" bash script to install mongodb
 3: After this run the "start_mongodb.sh" bash script to run the mongodb service.
