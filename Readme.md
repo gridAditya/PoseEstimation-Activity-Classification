@@ -19,6 +19,7 @@ For running the API in "Project2_V_1.7_Api", since we have implemented our own c
 4: After examining the api you can close the mongodb service using "stop_mongodb.sh" bash script.
 ```
 
+Inside the "synthetic_data_generation" we have a folder "synthetic_images" and "synthetic_annotations" that contains around 80 synthetically generated images and corresponding annotations.
 ## Purpose
 ```
 Uses the input image to estimate the pose of the human body.
