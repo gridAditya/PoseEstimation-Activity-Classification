@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/static/css/send_data.css">
+<title>Pose Estimation and Activity Classification</title>
+
+</head>
+    <body>
+        <!-- Define the result modal here -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="label">Modal Heading</h2>
+                <div class="image-container">
+                    <div class="image-box">
+                        <img id="original_image" src="/static/images/index_background.png" alt="Image 1">
+                    </div>
+                    <div class="image-box">
+                        <img id="pose_image" src="/static/images/index_background.png" alt="Image 2">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Define the error model(low contrast) here -->
+        <div id="error-modal" class="modal">
+            <!-- Modal content -->
+            <div id="error-content" class="modal-content">
+                <span class="close">&times;</span>
+                <h3 id="error-heading">Modal Heading</h2>
+                <div id="shade-block"></div>
+            </div>
+        </div>
+        
+        <!-- Define the wait model here -->
+        <div id="wait-modal" class="modal">
+            <!-- Modal content -->
+            <div id="wait-content" class="modal-content">
+                <!-- <span class="close">&times;</span> -->
+                <h3 id="wait-heading">Processing the Image please Wait!</h2>
+                <div id="shade-block"></div>
+            </div>
+        </div>
+
+        <div class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a id="logout">Logout</a>
+            <a id="logoutAll">LogoutAll</a>
+        </div>
+
+        <div class="form-container">
+            <h2>Image Upload Form</h2>
+            <form enctype="multipart/form-data">
+                <label for="imageDescription">Enter your image description:</label><br>
+                <input type="text" id="imageDescription" name="imageDescription" placeholder="Enter your image description"><br><br>
+                <input type="file" id="imageUpload" name="imageUpload"><br><br>
+                <button class="custom-button" id="uploadButton">Submit</button>
+            </form>
+        </div>
+
+    </body>
+<script src="/static/js/send_data.js"></script>
+</html>
