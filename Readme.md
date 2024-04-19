@@ -9,6 +9,15 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install.
 ```bash
 pip install -r requirements.txt
 ```
+For running the API in "Project2_V_1.7_Api", since we have implemented our own custom frontend and database with MongoDb, we have to install the MongoDb and run it, so follow the below steps:
+```bash
+First install homeBrew:
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+Then run the "install_mongodb.sh" bash script to install mongodb
+After this run the "start_mongodb.sh" bash script to run the mongodb service.
+After examining the api you can close the mongodb service using "stop_mongodb.sh" bash script.
+```
 
 ## Purpose
 ```
