@@ -14,7 +14,7 @@ For running the API in "Project2_V_1.7_Api", since we have implemented our own c
 1: First install homeBrew:
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-2: hen run the "install_mongodb.sh" bash script to install mongodb
+2: Then run the "install_mongodb.sh" bash script to install mongodb
 3: After this run the "start_mongodb.sh" bash script to run the mongodb service.
 4: After examining the api you can close the mongodb service using "stop_mongodb.sh" bash script.
 ```
