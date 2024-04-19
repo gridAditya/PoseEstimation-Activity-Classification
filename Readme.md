@@ -9,7 +9,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install.
 ```bash
 pip install -r requirements.txt
 ```
-For running the API in "Project2_V_1.7_Api", since we have implemented our own custom frontend and database with MongoDb, we have to install the MongoDb and run it, so follow the below steps:
+For running **the API in "Project2_V_1.7_Api"**, since we have implemented our own custom frontend and database with MongoDb, we have to install the MongoDb and run it, so follow the below steps:
 ```bash
 1: First install homeBrew:
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -19,7 +19,10 @@ For running the API in "Project2_V_1.7_Api", since we have implemented our own c
 4: After examining the api you can close the mongodb service using "stop_mongodb.sh" bash script.
 ```
 
-Inside the "synthetic_data_generation" we have a folder "synthetic_images" and "synthetic_annotations" that contains around 80 synthetically generated images and corresponding annotations.
+Inside the **"synthetic_data_generation"** we have a folder **"synthetic_images"** and **"synthetic_annotations"** that contains around **80 synthetically generated images and corresponding annotations**.
+
+Also the directory **"model_optimisation_4"** we have not uploaded the pruned and quantised models due to size constraints in gitHub, you can run the code in the **"model_optimisation_4" to regenerate the pruned and quantised models.
+
 ## Purpose
 ```
 Uses the input image to estimate the pose of the human body.
